@@ -44,7 +44,3 @@ A modern, responsive website for Yoga4Wellness by Seema Mangla, featuring a beau
 ## Deployment
 
 The site can be deployed to any platform that supports Next.js applications, such as Vercel, Netlify, or AWS Amplify.
-
-## License
-
-MIT
