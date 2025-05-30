@@ -41,12 +41,6 @@ A modern, responsive website for Yoga4Wellness by Seema Mangla, featuring a beau
 - `/public` - Static assets
 - `/src/app/globals.css` - Global styles and Tailwind configuration
 
-## Customization
-
-1. Replace the placeholder image in `/public/yoga-teacher.jpg` with an actual image of Seema Mangla
-2. Update the content in `/src/app/page.tsx` to match your needs
-3. Modify the color scheme in `tailwind.config.js` if desired
-
 ## Deployment
 
 The site can be deployed to any platform that supports Next.js applications, such as Vercel, Netlify, or AWS Amplify.
