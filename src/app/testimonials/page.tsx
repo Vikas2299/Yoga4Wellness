@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function Testimonials() {
   return (
@@ -7,21 +8,47 @@ export default function Testimonials() {
         <h1 className="section-title text-center">Testimonials</h1>
         <div className="max-w-3xl mx-auto space-y-8">
           <div className="bg-white p-6 rounded-lg shadow">
-            <p className="text-gray-700 italic mb-2">“Seema's classes have transformed my life. Her teaching style is gentle yet powerful!”</p>
+            <p className="text-gray-700 italic mb-2">"Seema's classes have transformed my life. Her teaching style is gentle yet powerful!"</p>
             <p className="text-primary font-bold">- Happy Student</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
-            <p className="text-gray-700 italic mb-2">“I love the flexibility of online and in-person classes. Highly recommend Yoga4Wellness!”</p>
+            <p className="text-gray-700 italic mb-2">"I love the flexibility of online and in-person classes. Highly recommend Yoga4Wellness!"</p>
             <p className="text-primary font-bold">- Satisfied Client</p>
           </div>
         </div>
-        <h2 className="section-title text-center mt-16">Gallery</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
-          {/* Replace with actual images in /public */}
-          <div className="bg-gray-200 h-40 rounded-lg" />
-          <div className="bg-gray-200 h-40 rounded-lg" />
-          <div className="bg-gray-200 h-40 rounded-lg" />
-          <div className="bg-gray-200 h-40 rounded-lg" />
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
+          <div className="relative h-[250px] rounded-lg overflow-hidden">
+            <Image
+              src="/gallery1.jpg"
+              alt="Yoga class"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="relative h-[250px] rounded-lg overflow-hidden">
+            <Image
+              src="/gallery2.jpg"
+              alt="Yoga class"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="relative h-[250px] rounded-lg overflow-hidden">
+            <Image
+              src="/gallery3.jpg"
+              alt="Yoga class"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="relative h-[250px] rounded-lg overflow-hidden">
+            <Image
+              src="/gallery4.jpg"
+              alt="Yoga class"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
       </div>
     </main>

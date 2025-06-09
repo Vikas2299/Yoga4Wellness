@@ -23,7 +23,7 @@ export default function Home() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-white/80 to-gray-100/80" />
+          <div className="absolute inset-0 bg-gradient-to-b from-white/50 to-gray-100/50" />
         </div>
         <div className="container relative z-10 text-center">
           <motion.div
@@ -37,10 +37,7 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-secondary mb-8">
               By Seema Mangla
             </p>
-            <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-12">
-              500H Certified Yoga Teacher | Certified Prenatal & Postnatal Yoga Coach
-            </p>
-            <a href="#contact" className="btn btn-primary">
+            <a href="/classes" className="btn btn-primary">
               Start Your Journey
             </a>
           </motion.div>
@@ -50,39 +47,30 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="container">
-          <h2 className="section-title text-center">About Me</h2>
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-6">
               <p className="text-lg text-gray-600">
-              Hi, I am a Yoga & Wellness professional coach !
+                Hi, I am a Yoga & Wellness professional coach !
 
+                Since my childhood, I have always been very active and loved staying fit.  I graduated as an engineer and started working in IT industry.
+                I was not doing too much yoga until I injured my knees in my outdoor ventures- hiking/running. Because of bad postures while running/hiking, my injury gradually turned into knee arthritis.  To take care of my knees I started practicing Yoga regularly and it became part of my life. Yoga not only allowed me to pursue my passion for hiking, It also helped me to relax and calm my mind and handle many stressful situations in life.
+                Realizing these benefits, both mentally and physically, I developed an immense passion for yoga and I decided to become a yoga teacher in 2018 and did my first 200H yoga teacher training. I  started teaching yoga to few of my friends.
+                I enjoyed practicing and teaching yoga so much that I quit my engineering job and became a full time yoga teacher in 2020.  Since then I have been practicing and enhancing my yoga skill through different  yoga teacher trainings. 
 
-Since my childhood, I have always been very active and loved staying fit.  I graduated as an engineer and started working in IT industry.
-       I was not doing too much yoga until I injured my knees in my outdoor ventures- hiking/running. Because of bad postures while running/hiking, my injury gradually turned into knee arthritis.  To take care of my knees I started practicing Yoga regularly and it became part of my life. Yoga not only allowed me to pursue my passion for hiking, It also helped me to relax and calm my mind and handle many stressful situations in life.
-    Realizing these benefits, both mentally and physically, I developed an immense passion for yoga and I decided to become a yoga teacher in 2018 and did my first 200H yoga teacher training. I  started teaching yoga to few of my friends.
-     I enjoyed practicing and teaching yoga so much that I quit my engineering job and became a full time yoga teacher in 2020.  Since then I have been practicing and enhancing my yoga skill through different  yoga teacher trainings. 
+                I feel fortunate to be able to find my passion and become an  instrument to spread this profound wisdom and help people experience the magic of Yoga like I experienced. 
 
-I feel fortunate to be able to find my passion and become an  instrument to spread this profound wisdom and help people experience the magic of Yoga like I experienced. 
-
-If you are looking for Physical/Mental wellness, I invite you to join me a journey to self with me!!
+                If you are looking for Physical/Mental wellness, I invite you to join me a journey to self with me!!
               </p>
-              <p className="text-lg text-gray-600">
-                After experiencing the transformative power of yoga in my own life, 
-                I decided to become a full-time yoga teacher in 2020. I am passionate 
-                about helping others experience the magic of yoga and achieve their 
-                wellness goals.
-              </p>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="p-4 bg-gray-50 rounded-lg">
-                  <h3 className="font-bold text-primary mb-2">Experience</h3>
-                  <p className="text-gray-600">Practicing since 2010</p>
-                  <p className="text-gray-600">Teaching since 2018</p>
-                </div>
-                <div className="p-4 bg-gray-50 rounded-lg">
-                  <h3 className="font-bold text-primary mb-2">Styles</h3>
-                  <p className="text-gray-600">Gentle, Vinyasa</p>
-                  <p className="text-gray-600">Ashtanga, Power</p>
-                </div>
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="font-bold text-primary text-xl mb-4">Certifications & Experience</h3>
+                <ul className="text-gray-600 space-y-2">
+                  <li>500H Certified Yoga Teacher by Yoga Alliance</li>
+                  <li>Certified Prenatal Yoga Coach</li>
+                  <li>Certified Postnatal Yoga Coach</li>
+                  <li>Certified Meditation/Pranayama Teacher</li>
+                  <li>Certified Pilate Instructor</li>
+                  <li>Certified Kids Yoga instructor</li>
+                </ul>
               </div>
             </div>
             <div className="flex flex-col items-center">
@@ -95,7 +83,7 @@ If you are looking for Physical/Mental wellness, I invite you to join me a journ
                   priority
                 />
               </div>
-              <div className="flex justify-center space-x-6">
+              <div className="flex justify-center space-x-6 mb-8">
                 <a 
                   href="https://www.facebook.com/people/Yoga4Wellness-With-Seema-Mangla/100063945394219/"
                   className="text-accent hover:text-primary transition-colors"
@@ -128,6 +116,16 @@ If you are looking for Physical/Mental wellness, I invite you to join me a journ
                 >
                   <FaLinkedin className="text-3xl" />
                 </a>
+              </div>
+              <div className="w-full space-y-4 mt-6">
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h4 className="font-bold text-primary mb-2">Yoga Experience</h4>
+                  <p className="text-gray-600">Practicing since 2010 / Teaching since 2018</p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h4 className="font-bold text-primary mb-2">Yoga Styles</h4>
+                  <p className="text-gray-600">Gentle, Vinyasa, Ashtanga, Power, Core, Hatha</p>
+                </div>
               </div>
             </div>
           </div>
@@ -178,8 +176,16 @@ If you are looking for Physical/Mental wellness, I invite you to join me a journ
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-primary mb-6">Location</h3>
                 <p className="text-gray-600 mb-4">Cupertino, CA 95014, USA</p>
-                <div className="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg">
-                  {/* Add Google Maps embed here */}
+                <div className="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg overflow-hidden">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101904.2931563776!2d-122.0936!3d37.323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7495bec0189%3A0x7c17d44a466baf9b!2sCupertino%2C%20CA%2095014!5e0!3m2!1sen!2sus!4v1647881234567!5m2!1sen!2sus"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
                 </div>
               </div>
             </div>

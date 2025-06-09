@@ -11,6 +11,7 @@ const menuItems = [
   { label: 'About', href: '#about' },
   { label: 'Classes', href: '/classes' },
   { label: 'Testimonials', href: '/testimonials' },
+  { label: 'Ayurveda', href: '/ayurveda' },
   { label: 'Contact', href: '#contact' },
 ]
 
